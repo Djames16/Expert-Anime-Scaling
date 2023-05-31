@@ -2,7 +2,7 @@ import { createRouter, createWebHashHistory } from 'vue-router'
 import HomePage from './views/HomePage.vue'
 import Scale from './views/Scale.vue'
 import Debate from './views/Debate.vue'
-import About from './views/AboutPage.vue'
+import AboutPage from './views/AboutPage.vue'
 
 const routes = [
    {
@@ -11,8 +11,20 @@ const routes = [
       component: HomePage
    },
    {
-      path: ''
-   }
+      path: '/Scale',
+      name: 'Scale',
+      component: Scale
+   },
+   {
+      path: '/Debate',
+      name: 'Debate',
+      component: Debate
+   },
+   {
+      path: '/AboutPage',
+      name: 'AboutPage',
+      component: AboutPage
+   },
 ]
 
 const router = createRouter({
