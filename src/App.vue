@@ -1,4 +1,8 @@
 <script >
+async function asyncFunction(){
+  const result = await requestData();
+  console.log(result);
+}
 </script>
 
 <template>
@@ -11,6 +15,8 @@
     <router-link to="/Scale"><span>Scale</span></router-link> |
 
     <router-link to="/Debate"><span>Debate</span></router-link>
+    
+    <button @click="fetchData()">Fetch</button>
 
   </nav>
   <router-view/>
