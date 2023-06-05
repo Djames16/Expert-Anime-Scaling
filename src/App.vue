@@ -6,7 +6,7 @@ async function asyncFunction(){
 </script>
 
 <template>
-  <nav >
+  <nav>
     
     <router-link to="/"><span>Home</span></router-link> |
 
@@ -15,9 +15,6 @@ async function asyncFunction(){
     <router-link to="/Scale"><span>Scale</span></router-link> |
 
     <router-link to="/Debate"><span>Debate</span></router-link>
-    
-    <button @click="fetchData()">Fetch</button>
-
   </nav>
   <router-view/>
    
@@ -42,4 +39,7 @@ h1, p {
   color: white;
 }
 
+button {
+  color:white
+}
 </style>
