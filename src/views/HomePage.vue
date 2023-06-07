@@ -1,9 +1,15 @@
 <script setup>
 async function bum() {
-console.log("yyyy")
-const result = await fetch('http://api.anib.net:9001/httpapi?request=hotanime')
-console.log(result);
-}
+fetch('https://animechan.vercel.app/api/available/anime')
+      .then(response => response.json())
+      .then(animes => console.log(animes))}
+
+async function dum() {
+fetch('https://animechan.vercel.app/api/available/character')
+      .then(response => response.json())
+      .then(characters => console.log(characters))}
+</script>
+
 </script>
 
 <template>
