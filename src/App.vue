@@ -42,4 +42,8 @@ h1, p {
 button {
   color:white
 }
+form, label{
+  color: white;
+  text-decoration: white;
+}
 </style>

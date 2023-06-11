@@ -1,14 +1,13 @@
 <script setup>
 async function bum() {
-fetch('https://animechan.vercel.app/api/available/anime')
+fetch('https://anidb.net/anime')
       .then(response => response.json())
       .then(animes => console.log(animes))}
 
 async function dum() {
-fetch('https://animechan.vercel.app/api/available/character')
+fetch('https://anidb.net/anime')
       .then(response => response.json())
       .then(characters => console.log(characters))}
-</script>
 
 </script>
 
@@ -17,6 +16,5 @@ fetch('https://animechan.vercel.app/api/available/character')
     <p class="text-center">
       Welcome to anime expert scaling
     </p>
-    <button @click="bum()">Fetch</button>
-
+<img src="animescaling.png" id="Photo" alt="This is the logo of the anime expert scaling website." width="450">
 </template>
