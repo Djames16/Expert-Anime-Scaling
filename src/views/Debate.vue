@@ -21,15 +21,15 @@ fetch('https://anidb.net/anime')
         method="post">
     <label>Enter your username here:</label>
     <br>
-    <input placeholder="Daeon James" name="full_name">
+    <v-text-field placeholder="Daeon James" name="full_name"></v-text-field>
     <br>
     <label>Enter your email here:</label>
     <br>
-    <input placeholder="Djames@brooklynsteamcenter.org" name="email">
+    <v-text-field placeholder="Djames@brooklynsteamcenter.org" name="email"></v-text-field>
     <br>
     <label>Comments:</label>
     <br>
-    <textarea placeholder="Submit here" name="Comments"></textarea>
+    <textarea placeholder="Submit your answer and explanation here" name="Comments"></textarea>
     <br>
     <input type="Submit">
     <br>
