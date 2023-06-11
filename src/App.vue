@@ -46,13 +46,4 @@ form, label{
   color: white;
   text-decoration: white;
 }
-
-#submit {
-  color: black;
-  background-color: white;
-}
-#reset{
-  color: #000000;
-  background-color: white;
-}
 </style>
